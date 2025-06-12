@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.section1{
+    height: 100dvh;
+    background: #140742;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-api{
+    display: flex;
+    width: 80%;
+    height: auto;
+    background: #260a8b;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+
+.content-form{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+}
+
+input{
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type=text]{
+    padding: 10px;
+    width: 50%;
+}
+
+#btnLocal{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background: #207cb1;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    transition: all .5s ease-in-out;
+}
+
+#btnLocal:hover{
+    background: #1c6792;
+}
+
+.content-btn-prontos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.content-btn-prontos button{
+    width: 50%;
+    height: 10vh;
+    color: #fff;
+    background: #4b0375;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.content-btn-prontos button:hover{
+    background: #370255;
+}
+
+.btns1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btns2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.cidadePais{
+    font-size: 28px;
+}
+
+.temp{
+    font-size: 35px;
+}
+
+.umidade{
+    font-size: 18px;
+}
+
+.ventos{
+    font-size: 18px;
+}
